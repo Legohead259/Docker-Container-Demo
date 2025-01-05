@@ -1,0 +1,5 @@
+services:
+  python-app:
+    image: test-py:latest
+    working_dir: /app/
+    entrypoint: "tail -f /dev/null"
